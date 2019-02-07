@@ -10,8 +10,10 @@ use Slim\Http\UploadedFile;
 //Listar todas as lojas
 $app->get('/lojas', function (Request $request, Response $response, array $args) {
 
-    $lojaController = new LojaController($request, $response, $args);
-    return $lojaController->getClientes();
+    /*$lojaController = new LojaController($request, $response, $args);
+    return $lojaController->getClientes();*/
+
+    return "Ola mundo";
 
 });
 //Listar loja...

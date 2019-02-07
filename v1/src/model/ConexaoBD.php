@@ -21,10 +21,10 @@ class ConexaoBD
     {
         $this->database = new \Medoo\Medoo([
             'database_type' => 'mysql',
-            'database_name' => 'epiz_22416473_vectisfood',
-            'server' => 'sql101.epizy.com',
-            'username' => 'epiz_22416473',
-            'password' => 'kBneXOIBW',
+            'database_name' => 'lnYToa7J9Y',
+            'server' => 'remotemysql.com',
+            'username' => 'lnYToa7J9Y',
+            'password' => 'z1DplIjphX',
             'charset' => 'utf8']);
     }
 

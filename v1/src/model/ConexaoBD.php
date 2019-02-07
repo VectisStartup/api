@@ -17,20 +17,20 @@ class ConexaoBD
     //remove esse comentario quando for para testar no servidor
     //E comenta igualzinho o outro bloco de codigo
     //Nunca se esquece, never forget
-    /*public function __construct()
+    public function __construct()
     {
         $this->database = new \Medoo\Medoo([
-            'database_type' => 'pgsql',
-            'database_name' => 'd3t02ak65j2pmh',
-            'server' => 'ec2-184-73-222-192.compute-1.amazonaws.com',
-            'username' => 'cjegurmtepqeln',
-            'password' => '9b2ce3b2579880154c9474b58e681ee3847448882b74082334102dbded359426',
+            'database_type' => 'mysql',
+            'database_name' => 'epiz_22416473_vectisfood',
+            'server' => 'sql101.epizy.com',
+            'username' => 'epiz_22416473',
+            'password' => 'kBneXOIBW',
             'charset' => 'utf8']);
-    }*/
+    }
 
 
     //Esse bloco aqui é para comentar, antes de enviar para o servidor
-    public function __construct()
+    /*public function __construct()
     {
         $this->database = new \Medoo\Medoo([
             'database_type' => 'mysql',
@@ -39,6 +39,6 @@ class ConexaoBD
             'username' => 'candido',
             'password' => '12345',
             'charset' => 'utf8']);
-    }
+    }*/
 
 }

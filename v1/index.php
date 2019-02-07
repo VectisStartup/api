@@ -22,13 +22,13 @@ $app = new \Slim\App();
 
 // Register routes
 require __DIR__ . '/src/router/LojaRouter.php';
-require __DIR__.'/src/router/LojaPedidosRouter.php';
+//require __DIR__.'/src/router/LojaPedidosRouter.php';
 
-require __DIR__ . '/src/router/fcmRouter.php';
+//require __DIR__ . '/src/router/fcmRouter.php';
 
 
 // Register routes
-require __DIR__ . '/src/router/ProdutosRouter.php';
+//require __DIR__ . '/src/router/ProdutosRouter.php';
 
 // Register routes
 //require __DIR__ . '/src/router/PromocaoRouter.php';

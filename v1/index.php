@@ -9,9 +9,7 @@ if (PHP_SAPI == 'cli-server') {
     }
 }
 
-echo "Hello Word";
-
-/*require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $app = new \Slim\App();
 
@@ -36,4 +34,4 @@ require __DIR__ . '/src/router/ProdutosRouter.php';
 //require __DIR__ . '/src/router/PromocaoRouter.php';
 
 // Run app
-$app->run();*/
+$app->run();
